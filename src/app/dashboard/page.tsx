@@ -9,11 +9,11 @@ const Dashobard: React.FC = () => {
     <>
       <DefaultLayout>
 
-        <div className="text-black text-4xl font-extrabold mb-6">
+        <div className="text-black text-2xl md:text-4xl font-extrabold mb-6">
           Welcome Johns
         </div>
 
-        <div className="mb-7 grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6 xl:grid-cols-4 2xl:gap-7.5">
+        <div className="mb-7 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 md:gap-6 xl:grid-cols-4 2xl:gap-7.5">
           <CardDataStats
             bgColorClass="firstBox"
             title="Total Earning"

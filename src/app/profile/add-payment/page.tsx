@@ -29,7 +29,7 @@ const AddPayment = () => {
                   Deposite Amount
                 </label>
                 <div className="mt-1">
-                  <div className="ring-gray-300 relative mt-2 overflow-hidden rounded-md border border-[#E2E2E2] shadow-sm">
+                  <div className="ring-gray-300 relative mt-2 overflow-hidden rounded-md border border-[#E2E2E2]">
                     <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center bg-primary100 px-3">
                       <span className="text-base font-semibold text-black">
                         $
