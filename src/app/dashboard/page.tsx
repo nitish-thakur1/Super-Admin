@@ -9,7 +9,7 @@ const Dashobard: React.FC = () => {
     <>
       <DefaultLayout>
 
-        <div className="text-black text-2xl md:text-4xl font-extrabold mb-6">
+        <div className="text-black text-2xl md:text-4xl font-medium mb-6">
           Welcome Johns
         </div>
 

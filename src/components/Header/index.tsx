@@ -72,27 +72,27 @@ const Header = (props: {
         <div className="hidden sm:ml-6 sm:block">
           <div className="flex gap-1 sm:gap-9">
             <Link
-              href="#"
-              className="bg-gray-900 text-base rounded-md py-0 font-medium text-primary500"
+              href="/website/home"
+              className="bg-gray-900 text-base rounded-md py-0 text-primary500"
               aria-current="page"
             >
               Home
             </Link>
             <Link
-              href="#"
-              className="text-gray-300 hover:bg-gray-700 text-base rounded-md py-0 font-medium hover:text-primary500"
+              href="/website/about-us"
+              className="text-gray-300 hover:bg-gray-700 text-base rounded-md py-0 hover:text-primary500"
             >
               About Us
             </Link>
             <Link
-              href="#"
-              className="text-gray-300 hover:bg-gray-700 text-base rounded-md py-0 font-medium hover:text-primary500"
+              href="/website/contact-us"
+              className="text-gray-300 hover:bg-gray-700 text-base rounded-md py-0 hover:text-primary500"
             >
               Contact Us
             </Link>
             <Link
-              href="#"
-              className="text-gray-300 hover:bg-gray-700 text-base rounded-md py-0 font-medium hover:text-primary500"
+              href="/dashboard"
+              className="text-gray-300 hover:bg-gray-700 text-base rounded-md py-0 hover:text-primary500"
             >
               Dashboard
             </Link>
