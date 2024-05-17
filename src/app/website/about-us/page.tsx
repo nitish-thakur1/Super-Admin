@@ -3,229 +3,186 @@ import WebLayout from "@/components/Layouts/WebLayout";
 import "@/css/style.css";
 import Image from "next/image";
 import React from "react";
-import { ArrowRightIcon, PlayIcon } from "@heroicons/react/24/solid";
+import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import {
+  CheckBadgeIcon,
   DevicePhoneMobileIcon,
   EnvelopeIcon,
   MapPinIcon,
-  PhoneIcon,
-  ShareIcon,
 } from "@heroicons/react/24/outline";
 
-const ContactUs: React.FC = () => {
+const AboutUs: React.FC = () => {
   return (
     <>
       <WebLayout>
         <section className="flex min-h-50 flex-col items-center justify-center bg-primary500 bg-[url('/images/website/inner-pattern.png')] bg-cover bg-no-repeat p-6 text-center">
           <h1 className="text-3xl font-bold text-white lg:text-5xl">
-            Contact Us
+            About Us
           </h1>
-          <p className="mt-3 text-base lg:text-lg text-primary200">
+          <p className="mt-3 text-base text-primary200 lg:text-lg">
             Any question or remarks? Just write us a message!
           </p>
         </section>
 
-        <section className="information-box px-0 py-6 lg:py-12">
+        <section className="px-0 py-6 text-[#696E76] lg:py-12">
           <div className="container mx-auto">
-            <div className="grid grid-cols-12 gap-6">
-              <div className="col-span-12 lg:col-span-5">
-                <div className="mb-5">
-                  <h2 className="text-xl lg:text-3xl xl:text-4xl font-semibold text-black">
-                    Contact Information
-                  </h2>
-                  <span className="mt-2 block text-base lg:text-md xl:text-lg font-medium text-primary400">
-                    Say something to start a live chat!
+            <div className="grid grid-cols-12 gap-6 lg:gap-12">
+              <div className="col-span-12 lg:col-span-5 mb-10 lg:mb-0">
+                <div className="relative">
+                  <span className="block w-11/12 overflow-hidden rounded-xl">
+                    <img
+                      src="/images/website/about-us-2.jpg"
+                      alt=""
+                      className="h-full w-full object-cover"
+                    />
                   </span>
-                </div>
-
-                <div className="flex flex-col gap-4">
-                  <div>
-                    <div className="flex gap-4">
-                      <span className="flex h-13 min-w-13 w-13 items-center justify-center rounded-full border border-primary400 bg-white">
-                        <PhoneIcon className="h-5 w-5 text-primary400" />
-                      </span>
-                      <div>
-                        <h5 className="text-md text-grey500">PHONE</h5>
-                        <p className="text-base font-medium text-[#414A53]">
-                          +1012 3456 789
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div>
-                    <div className="flex gap-4">
-                      <span className="flex h-13 min-w-13 w-13 items-center justify-center rounded-full border border-primary400 bg-white">
-                        <EnvelopeIcon className="h-5 w-5 text-primary400" />
-                      </span>
-                      <div>
-                        <h5 className="text-md text-grey500">MAIL</h5>
-                        <p className="text-base font-medium text-[#414A53]">
-                          demo@gmail.com
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div>
-                    <div className="flex gap-4">
-                      <span className="flex h-13 min-w-13 w-13 items-center justify-center rounded-full border border-primary400 bg-white">
-                        <MapPinIcon className="h-6 w-6 text-primary400" />
-                      </span>
-                      <div>
-                        <h5 className="text-md text-grey500">LOCATION</h5>
-                        <p className="text-base font-medium text-[#414A53]">
-                          32 Dartmouth Street Boston, Massachusetts 02156 United
-                          States
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div>
-                    <div className="flex gap-4">
-                      <span className="flex h-13 min-w-13 w-13 items-center justify-center rounded-full border border-primary400 bg-white">
-                        <ShareIcon className="h-5 w-5 text-primary400" />
-                      </span>
-                      <div>
-                        <h5 className="text-md text-grey500">FOLLOW US</h5>
-                        <div className="flex gap-0">
-                          <Link className="flex items-center p-2" href="/">
-                            <Image
-                              width={18}
-                              height={18}
-                              src={"/images/website/contact-twitter.svg"}
-                              alt="contact-twitter"
-                            />
-                          </Link>
-                          <Link className="flex items-center p-2" href="/">
-                            <Image
-                              width={18}
-                              height={18}
-                              src={"/images/website/contact-instagram.svg"}
-                              alt="contact-instagram"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
+                  <div className="absolute -bottom-8 right-0 bg-primary400 p-6 text-lg font-semibold text-white sm:text-xl lg:w-80 lg:text-3xl">
+                    Faster than you can imagine{" "}
+                    <div
+                      className="absolute right-0 top-0 
+                    rotate-[90deg] border-b-[32px]
+                    border-l-[32px] border-t-[0]
+                    border-b-transparent border-l-white border-t-transparent"
+                    ></div>
                   </div>
                 </div>
               </div>
               <div className="col-span-12 lg:col-span-7">
-                <div className="mt-6">
-                  <form>
-                    <div className="grid grid-cols-4 gap-4">
-                      <div className="box col-span-4 lg:col-span-2">
-                        <label
-                          htmlFor="first-name"
-                          className=" block text-base font-medium leading-6 text-black"
-                        >
-                          First Name
-                        </label>
-                        <div className="mt-1">
-                          <input
-                            type="text"
-                            name="name"
-                            placeholder="Type your first name"
-                            className="ring-gray-300 block w-full resize-none rounded-md border border-[#E2E2E2] px-4 py-2 focus:outline-none sm:text-base sm:leading-6"
-                          ></input>
-                        </div>
-                      </div>
-                      <div className="box col-span-4 lg:col-span-2">
-                        <label
-                          htmlFor="first-name"
-                          className=" block text-base font-medium leading-6 text-black"
-                        >
-                          Last Name
-                        </label>
-                        <div className="mt-1">
-                          <input
-                            type="text"
-                            name="name"
-                            placeholder="Type your last name"
-                            className="ring-gray-300 block w-full resize-none rounded-md border border-[#E2E2E2] px-4 py-2 focus:outline-none sm:text-base sm:leading-6"
-                          ></input>
-                        </div>
-                      </div>
+                <div className="mb-5 text-xl font-semibold text-grey500 lg:text-2xl xl:text-4xl">
+                  Revolutionizing Access to Products{" "}
+                  <span className="text-red">Across Borders</span>
+                </div>
+                <p className="text-base text-grey500">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy
+                </p>
 
-                      <div className="box col-span-4">
-                        <label
-                          htmlFor="first-name"
-                          className=" block text-base font-medium leading-6 text-black"
-                        >
-                          Email
-                        </label>
-                        <div className="mt-1">
-                          <input
-                            type="text"
-                            name="email"
-                            placeholder="Type your email address"
-                            className="ring-gray-300 block w-full resize-none rounded-md border border-[#E2E2E2] px-4 py-2 focus:outline-none sm:text-base sm:leading-6"
-                          ></input>
-                        </div>
-                      </div>
+                <p className="mt-6 block w-full text-base text-[#696E76]">
+                  Our mission is to break down barriers of accessibility and
+                  make the world a smaller, more connected place. With Bring Me,
+                  you can access any product, anywhere, and travelers can make
+                  their journeys even more meaningful by helping others.
+                </p>
+                <p className="mt-3 block w-full text-base text-[#696E76]">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, 
+                </p>
 
-                      <div className="box col-span-4">
-                        <label
-                          htmlFor="first-name"
-                          className=" block text-base font-medium leading-6 text-black"
-                        >
-                          Message
-                        </label>
-                        <div className="mt-1">
-                          <textarea
-                            name="message"
-                            placeholder="Type your message"
-                            className="ring-gray-300 block w-full resize-none rounded-md border border-[#E2E2E2] px-4 py-2 focus:outline-none sm:text-base sm:leading-6"
-                          ></textarea>
-                        </div>
-                      </div>
+                <ul className="mt-10 flex flex-col gap-4">
+                  <li className="relative block w-full pl-8 text-base text-black">
+                    <span className="absolute left-0 top-0.5">
+                      <CheckBadgeIcon className="h-6 w-6 text-[#FE4239]" />
+                    </span>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s
+                  </li>
+                  <li className="relative block w-full pl-8 text-base text-black">
+                    <span className="absolute left-0 top-0.5">
+                      <CheckBadgeIcon className="h-6 w-6 text-[#FE4239]" />
+                    </span>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
 
-                      <div className="box col-span-4">
-                        <label
-                          htmlFor="first-name"
-                          className=" block text-base font-medium leading-6 text-black"
-                        >
-                          Select Subject?
-                        </label>
-                        <div className="mt-2 flex gap-4 flex-wrap">
-                          <label className="flex items-center gap-2">
-                            <input
-                              type="checkbox"
-                              name="Country"
-                              className="h-5 w-5"
-                            />{" "}
-                            General Inquiry
-                          </label>
-                          <label className="flex items-center gap-2">
-                            <input
-                              type="checkbox"
-                              name="Country"
-                              className="h-5 w-5"
-                            />{" "}
-                            General Inquiry
-                          </label>
-                          <label className="flex items-center gap-2">
-                            <input
-                              type="checkbox"
-                              name="Country"
-                              className="h-5 w-5"
-                            />{" "}
-                            General Inquiry
-                          </label>
-                        </div>
-                      </div>
+        <section className="px-0 py-6 bg-[#F8F9F9] lg:py-12 mt-10">
+          <div className="container mx-auto">
+            <div className="grid grid-cols-12 gap-6 lg:gap-12 items-center">
+                
+              <div className="col-span-12 lg:col-span-6">
+                <div className="mb-5 text-xl font-semibold text-grey500 lg:text-2xl xl:text-4xl">
+                Why Choose {" "}
+                  <span className="text-red">Bring Me</span>
+                </div>
+                <p className="text-base text-grey500">
+                Our mission is to break down barriers of accessibility and make the world a smaller, more connected place. With Bring Me, you can access any product, anywhere, and travelers can make their journeys even more meaningful by helping others.
+                </p>
+
+                <p className="mt-6 block w-full text-base text-[#696E76]">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                </p>
+                <p className="mt-3 block w-full text-base text-[#696E76]">
+                Our mission is to break down barriers of accessibility and make the world a smaller, more connected place. With Bring Me, you can access any product, anywhere, and travelers can make their journeys even more meaningful by helping others.
+                </p>
+                <p className="mt-3 block w-full text-base text-[#696E76]">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                </p>
+
+                <div className="flex flex-wrap gap-10 mt-5 lg:mt-10">
+                    <div>
+                        <h3 className="text-6xl text-primary500 font-bold">50 <span className="font-normal text-base text-secondary300">cities</span></h3>
+                        <p className="text-grey500">Around the world</p>
                     </div>
-
-<button
-  type="submit"
-  className="ml-auto mt-6 rounded-full bg-primary300 px-8 p-3 font-normal text-white transition-all hover:bg-primary400"
->
-  Send Message
-</button>
-                  </form>
+                    <div>
+                        <h3 className="text-6xl text-primary500 font-bold">2 <span className="font-normal text-base text-secondary300">millions</span></h3>
+                        <p className="text-grey500">Delivery around the world</p>
+                    </div>
+                    <div>
+                        <h3 className="text-6xl text-primary500 font-bold">1.2 <span className="font-normal text-base text-secondary300">millions</span></h3>
+                        <p className="text-grey500">Around the world</p>
+                    </div>
+                </div>
+                
+              </div>
+              <div className="col-span-12 lg:col-span-6">
+                <div className="grid grid-cols-12 gap-4">
+                    <div className="col-span-12 lg:col-span-6 lg mt-12">
+                        <div className="p-6 rounded-lg bg-primary400 text-white shadow-default">
+                            <Image
+                            src='/images/website/globe.svg'
+                            width={60}
+                            height={60}
+                            alt="globe"
+                            className="mb-3"
+                            />
+                            <h5 className="text-lg mb-3">Lorem Ipsum is simply dummy </h5>
+                            <p className="text-md font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                        </div>
+                        <div className="p-6 rounded-lg bg-white mt-6 text-black shadow-default">
+                            <Image
+                            src='/images/website/savings.svg'
+                            width={60}
+                            height={60}
+                            alt="savings"
+                            className="mb-3 invert"
+                            />
+                            <h5 className="text-lg mb-3">Lorem Ipsum is simply dummy </h5>
+                            <p className="text-md font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                        </div>
+                    </div>
+                    <div className="col-span-12 lg:col-span-6">
+                        <div className="p-6 rounded-lg bg-white text-black shadow-default">
+                            <Image
+                            src='/images/website/paid.svg'
+                            width={60}
+                            height={60}
+                            alt="paid"
+                            className="mb-3 invert"
+                            />
+                            <h5 className="text-lg mb-3">Lorem Ipsum is simply dummy </h5>
+                            <p className="text-md font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                        </div>
+                        <div className="p-6 rounded-lg bg-secondary300 mt-6 text-white shadow-default">
+                            <Image
+                            src='/images/website/add_reaction.svg'
+                            width={60}
+                            height={60}
+                            alt="add_reaction"
+                            className="mb-3"
+                            />
+                            <h5 className="text-lg mb-3">Lorem Ipsum is simply dummy </h5>
+                            <p className="text-md font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                        </div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -449,4 +406,4 @@ const ContactUs: React.FC = () => {
   );
 };
 
-export default ContactUs;
+export default AboutUs;

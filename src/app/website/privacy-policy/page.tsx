@@ -3,7 +3,7 @@ import WebLayout from "@/components/Layouts/WebLayout";
 import "@/css/style.css";
 import Image from "next/image";
 import React from "react";
-import { ArrowRightIcon, PlayIcon } from "@heroicons/react/24/solid";
+import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import {
   DevicePhoneMobileIcon,
@@ -13,222 +13,117 @@ import {
   ShareIcon,
 } from "@heroicons/react/24/outline";
 
-const ContactUs: React.FC = () => {
+const PrivacyPolicy: React.FC = () => {
   return (
     <>
       <WebLayout>
         <section className="flex min-h-50 flex-col items-center justify-center bg-primary500 bg-[url('/images/website/inner-pattern.png')] bg-cover bg-no-repeat p-6 text-center">
           <h1 className="text-3xl font-bold text-white lg:text-5xl">
-            Contact Us
+            Privacy policy
           </h1>
-          <p className="mt-3 text-base lg:text-lg text-primary200">
+          <p className="mt-3 text-base text-primary200 lg:text-lg">
             Any question or remarks? Just write us a message!
           </p>
         </section>
 
-        <section className="information-box px-0 py-6 lg:py-12">
+        <section className="information-box px-0 py-6 text-[#696E76] lg:py-12">
           <div className="container mx-auto">
-            <div className="grid grid-cols-12 gap-6">
-              <div className="col-span-12 lg:col-span-5">
-                <div className="mb-5">
-                  <h2 className="text-xl lg:text-3xl xl:text-4xl font-semibold text-black">
-                    Contact Information
-                  </h2>
-                  <span className="mt-2 block text-base lg:text-md xl:text-lg font-medium text-primary400">
-                    Say something to start a live chat!
-                  </span>
-                </div>
+            <p className="mb-3 block text-base">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.”
+            </p>
 
-                <div className="flex flex-col gap-4">
-                  <div>
-                    <div className="flex gap-4">
-                      <span className="flex h-13 min-w-13 w-13 items-center justify-center rounded-full border border-primary400 bg-white">
-                        <PhoneIcon className="h-5 w-5 text-primary400" />
-                      </span>
-                      <div>
-                        <h5 className="text-md text-grey500">PHONE</h5>
-                        <p className="text-base font-medium text-[#414A53]">
-                          +1012 3456 789
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+            <h5 className="mb-3 mt-5 block text-base font-semibold text-black">
+              Section 1.10.32 of “de Finibus Bonorum et Malorum”, written by
+              Cicero in 45 BC
+            </h5>
+            <p className="mb-3 block text-base">
+              “Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+              eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+              est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+              velit, sed quia non.
+            </p>
+            <p className="mb-3 block text-base">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.”
+            </p>
 
-                  <div>
-                    <div className="flex gap-4">
-                      <span className="flex h-13 min-w-13 w-13 items-center justify-center rounded-full border border-primary400 bg-white">
-                        <EnvelopeIcon className="h-5 w-5 text-primary400" />
-                      </span>
-                      <div>
-                        <h5 className="text-md text-grey500">MAIL</h5>
-                        <p className="text-base font-medium text-[#414A53]">
-                          demo@gmail.com
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+            <h5 className="mb-3 mt-5 block text-base font-semibold text-black">
+              Section 1.10.32 of “de Finibus Bonorum et Malorum”, written by
+              Cicero in 45 BC
+            </h5>
+            <p className="mb-3 block text-base">
+              “Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+              eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+              est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+              velit, sed quia non.
+            </p>
+            <p className="mb-3 block text-base">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.”
+            </p>
 
-                  <div>
-                    <div className="flex gap-4">
-                      <span className="flex h-13 min-w-13 w-13 items-center justify-center rounded-full border border-primary400 bg-white">
-                        <MapPinIcon className="h-6 w-6 text-primary400" />
-                      </span>
-                      <div>
-                        <h5 className="text-md text-grey500">LOCATION</h5>
-                        <p className="text-base font-medium text-[#414A53]">
-                          32 Dartmouth Street Boston, Massachusetts 02156 United
-                          States
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+            <h5 className="mb-3 mt-5 block text-base font-semibold text-black">
+              Section 1.10.32 of “de Finibus Bonorum et Malorum”, written by
+              Cicero in 45 BC
+            </h5>
+            <p className="mb-3 block text-base">
+              “Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+              eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+              est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+              velit, sed quia non.
+            </p>
+            <p className="mb-3 block text-base">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.”
+            </p>
 
-                  <div>
-                    <div className="flex gap-4">
-                      <span className="flex h-13 min-w-13 w-13 items-center justify-center rounded-full border border-primary400 bg-white">
-                        <ShareIcon className="h-5 w-5 text-primary400" />
-                      </span>
-                      <div>
-                        <h5 className="text-md text-grey500">FOLLOW US</h5>
-                        <div className="flex gap-0">
-                          <Link className="flex items-center p-2" href="/">
-                            <Image
-                              width={18}
-                              height={18}
-                              src={"/images/website/contact-twitter.svg"}
-                              alt="contact-twitter"
-                            />
-                          </Link>
-                          <Link className="flex items-center p-2" href="/">
-                            <Image
-                              width={18}
-                              height={18}
-                              src={"/images/website/contact-instagram.svg"}
-                              alt="contact-instagram"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-span-12 lg:col-span-7">
-                <div className="mt-6">
-                  <form>
-                    <div className="grid grid-cols-4 gap-4">
-                      <div className="box col-span-4 lg:col-span-2">
-                        <label
-                          htmlFor="first-name"
-                          className=" block text-base font-medium leading-6 text-black"
-                        >
-                          First Name
-                        </label>
-                        <div className="mt-1">
-                          <input
-                            type="text"
-                            name="name"
-                            placeholder="Type your first name"
-                            className="ring-gray-300 block w-full resize-none rounded-md border border-[#E2E2E2] px-4 py-2 focus:outline-none sm:text-base sm:leading-6"
-                          ></input>
-                        </div>
-                      </div>
-                      <div className="box col-span-4 lg:col-span-2">
-                        <label
-                          htmlFor="first-name"
-                          className=" block text-base font-medium leading-6 text-black"
-                        >
-                          Last Name
-                        </label>
-                        <div className="mt-1">
-                          <input
-                            type="text"
-                            name="name"
-                            placeholder="Type your last name"
-                            className="ring-gray-300 block w-full resize-none rounded-md border border-[#E2E2E2] px-4 py-2 focus:outline-none sm:text-base sm:leading-6"
-                          ></input>
-                        </div>
-                      </div>
-
-                      <div className="box col-span-4">
-                        <label
-                          htmlFor="first-name"
-                          className=" block text-base font-medium leading-6 text-black"
-                        >
-                          Email
-                        </label>
-                        <div className="mt-1">
-                          <input
-                            type="text"
-                            name="email"
-                            placeholder="Type your email address"
-                            className="ring-gray-300 block w-full resize-none rounded-md border border-[#E2E2E2] px-4 py-2 focus:outline-none sm:text-base sm:leading-6"
-                          ></input>
-                        </div>
-                      </div>
-
-                      <div className="box col-span-4">
-                        <label
-                          htmlFor="first-name"
-                          className=" block text-base font-medium leading-6 text-black"
-                        >
-                          Message
-                        </label>
-                        <div className="mt-1">
-                          <textarea
-                            name="message"
-                            placeholder="Type your message"
-                            className="ring-gray-300 block w-full resize-none rounded-md border border-[#E2E2E2] px-4 py-2 focus:outline-none sm:text-base sm:leading-6"
-                          ></textarea>
-                        </div>
-                      </div>
-
-                      <div className="box col-span-4">
-                        <label
-                          htmlFor="first-name"
-                          className=" block text-base font-medium leading-6 text-black"
-                        >
-                          Select Subject?
-                        </label>
-                        <div className="mt-2 flex gap-4 flex-wrap">
-                          <label className="flex items-center gap-2">
-                            <input
-                              type="checkbox"
-                              name="Country"
-                              className="h-5 w-5"
-                            />{" "}
-                            General Inquiry
-                          </label>
-                          <label className="flex items-center gap-2">
-                            <input
-                              type="checkbox"
-                              name="Country"
-                              className="h-5 w-5"
-                            />{" "}
-                            General Inquiry
-                          </label>
-                          <label className="flex items-center gap-2">
-                            <input
-                              type="checkbox"
-                              name="Country"
-                              className="h-5 w-5"
-                            />{" "}
-                            General Inquiry
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-
-<button
-  type="submit"
-  className="ml-auto mt-6 rounded-full bg-primary300 px-8 p-3 font-normal text-white transition-all hover:bg-primary400"
->
-  Send Message
-</button>
-                  </form>
-                </div>
-              </div>
-            </div>
+            <h5 className="mb-3 mt-5 block text-base font-semibold text-black">
+              Section 1.10.32 of “de Finibus Bonorum et Malorum”, written by
+              Cicero in 45 BC
+            </h5>
+            <p className="mb-3 block text-base">
+              “Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+              eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+              est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+              velit, sed quia non.
+            </p>
           </div>
         </section>
 
@@ -449,4 +344,4 @@ const ContactUs: React.FC = () => {
   );
 };
 
-export default ContactUs;
+export default PrivacyPolicy;

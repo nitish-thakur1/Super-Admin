@@ -128,7 +128,7 @@ const Home: React.FC = () => {
                   ></input>
                 </div>
               </div>
-              <button className="mt-auto inline-flex h-10 cursor-pointer items-center justify-center gap-2 rounded-full border border-primary300 bg-primary300 p-3 px-8 text-center font-medium text-white transition hover:bg-opacity-90 md:min-w-60">
+              <button className="mt-auto inline-flex h-10 cursor-pointer items-center justify-center gap-2 rounded-full border border-primary300 bg-primary300 p-3 px-8 text-center font-normal text-white transition hover:bg-opacity-90 md:min-w-60">
                 Search
               </button>
             </div>
@@ -640,7 +640,7 @@ const Home: React.FC = () => {
         <section className="footer bg-[#37383C] pb-15 pt-21">
           <div className="container mx-auto">
             <div className="grid grid-cols-12 gap-6">
-              <div className="col-span-12 lg:col-span-3">
+            <div className="col-span-12 lg:col-span-3">
                 <Link className="block flex-shrink-0" href="/">
                   <Image
                     width={160}
@@ -661,49 +661,49 @@ const Home: React.FC = () => {
                   <div className="mt-3 flex gap-0">
                     <Link
                       href="/"
-                      className="flex h-12 w-12 items-center justify-center p-2"
+                      className="flex h-10 w-10 items-center justify-center p-2"
                     >
                       <Image
                         className="h-full w-full"
                         src="/images/website/facebook.svg"
-                        width={22}
-                        height={22}
+                        width={12}
+                        height={12}
                         alt="facebook"
                       />
                     </Link>
                     <Link
                       href="/"
-                      className="flex h-12 w-12 items-center justify-center p-2"
+                      className="flex h-10 w-10 items-center justify-center p-2"
                     >
                       <Image
                         className="h-full w-full"
                         src="/images/website/telegram.svg"
-                        width={22}
-                        height={22}
+                        width={12}
+                        height={12}
                         alt="telegram"
                       />
                     </Link>
                     <Link
                       href="/"
-                      className="flex h-12 w-12 items-center justify-center p-2"
+                      className="flex h-10 w-10 items-center justify-center p-2"
                     >
                       <Image
                         className="h-full w-full"
                         src="/images/website/twitter.svg"
-                        width={22}
-                        height={22}
+                        width={12}
+                        height={12}
                         alt="twitter"
                       />
                     </Link>
                     <Link
                       href="/"
-                      className="flex h-12 w-12 items-center justify-center p-2"
+                      className="flex h-10 w-10 items-center justify-center p-2"
                     >
                       <Image
                         className="h-full w-full"
                         src="/images/website/instagram.svg"
-                        width={24}
-                        height={22}
+                        width={12}
+                        height={12}
                         alt="instagram"
                       />
                     </Link>
@@ -716,13 +716,13 @@ const Home: React.FC = () => {
                   Quick Links
                 </h5>
                 <div className="flex flex-col flex-nowrap gap-3">
-                  <Link href="#" className="w-full text-base text-white">
+                  <Link href="/website/about-us" className="w-full text-base text-white">
                     About Us
                   </Link>
                   <Link href="#" className="w-full text-base text-white">
                     How It Works
                   </Link>
-                  <Link href="#" className="w-full text-base text-white">
+                  <Link href="/website/privacy-policy" className="w-full text-base text-white">
                     Privacy Policy
                   </Link>
                 </div>

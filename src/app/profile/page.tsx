@@ -45,7 +45,7 @@ const [addBankAccountModal,setaddBankAccountModal]=useState(false)
             <div className="ml-0 flex gap-3 sm:ml-auto">
               <label
                 htmlFor="cover"
-                className="flex cursor-pointer items-center justify-center gap-2 rounded-full bg-primary300 px-4 py-2 font-medium text-white transition-all hover:bg-primary400"
+                className="flex cursor-pointer items-center justify-center gap-2 rounded-full bg-primary300 px-4 py-2 font-normal text-white transition-all hover:bg-primary400"
               >
                 <input
                   type="file"
@@ -56,7 +56,7 @@ const [addBankAccountModal,setaddBankAccountModal]=useState(false)
                 <span className="whitespace-nowrap">Upload New Image</span>
               </label>
 
-              <button className="rounded-full border border-primary300 px-4 py-2 text-primary300 transition-all">
+              <button className="font-normal rounded-full border border-primary300 px-4 py-2 text-primary300 transition-all">
                 Delete
               </button>
             </div>
@@ -80,27 +80,27 @@ const [addBankAccountModal,setaddBankAccountModal]=useState(false)
                 <div className="grid grid-cols-2 gap-4 text-base">
                   <div>
                     <span className="block text-[#696E76]">First Name</span>
-                    <span className="block font-semibold text-black">John</span>
+                    <span className="block font-medium text-black">John</span>
                   </div>
                   <div>
                     <span className="block text-[#696E76]">Last Name</span>
-                    <span className="block font-semibold text-black">Doe</span>
+                    <span className="block font-medium text-black">Doe</span>
                   </div>
                   <div>
                     <span className="block text-[#696E76]">Email Address</span>
-                    <span className="block font-semibold text-black">
+                    <span className="block font-medium text-black">
                       Johnxxxx@123.com
                     </span>
                   </div>
                   <div>
                     <span className="block text-[#696E76]">Phone Number</span>
-                    <span className="block font-semibold text-black">
+                    <span className="block font-medium text-black">
                       213 (513-4444 )
                     </span>
                   </div>
                   <div className="col-span-2">
                     <span className="block text-[#696E76]">Bio</span>
-                    <span className="block font-semibold text-black">
+                    <span className="block font-medium text-black">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Ad iure sed ex ipsum tempore blanditiis ullam, excepturi
                       earum recusandae eaque doloribus ratione eveniet
@@ -134,7 +134,7 @@ const [addBankAccountModal,setaddBankAccountModal]=useState(false)
                 <h3 className="whitespace-nowrap text-lg font-semibold">
                   Manage Cards
                 </h3>
-                <button className="ml-auto cursor-pointer whitespace-nowrap rounded-full bg-primary300 px-4 py-2 font-medium text-white transition-all hover:bg-primary400">
+                <button className="ml-auto cursor-pointer whitespace-nowrap rounded-full bg-primary300 px-4 py-2 font-normal text-white transition-all hover:bg-primary400">
                   Add new card
                 </button>
               </div>
@@ -224,7 +224,7 @@ const [addBankAccountModal,setaddBankAccountModal]=useState(false)
                   alt="card"
                 />
               </span>
-              <div className="font-semibold text-black">
+              <div className="font-medium text-black">
                 <span className="block">ICICI Bank 7414</span>
                 <span className="block">Saving Account</span>
                 <span className="block text-sm">Primary</span>
@@ -234,7 +234,7 @@ const [addBankAccountModal,setaddBankAccountModal]=useState(false)
               <span className="rounded-lg border-2 border-dashed border-[#C8CFD9] p-2 w-20 h-20 flex items-center justify-center">
                 <BuildingLibraryIcon className="h-9 w-9 text-black" />
               </span>
-              <div className="font-semibold text-black">
+              <div className="font-medium text-black">
                 <span className="block">Add bank account</span>
               </div>
             </button>

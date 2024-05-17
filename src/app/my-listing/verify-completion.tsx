@@ -117,7 +117,7 @@ const [feedbackModal,shareFeedback,]=useState(false)
                   <div className="bg-gray-50 px-4 py-3 pb-6 sm:px-6 flex gap-3 justify-end">
                   <button
                     type="button"
-                    className="mt-3 inline-flex w-full justify-center rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-primary300 shadow-sm ring-1 ring-inset ring-primary300 hover:bg-gray-50 sm:mt-0 sm:w-auto items-center"
+                    className="mt-3 inline-flex w-full justify-center rounded-full bg-white px-4 py-2.5 text-sm font-medium text-primary300 shadow-sm ring-1 ring-inset ring-primary300 hover:bg-gray-50 sm:mt-0 sm:w-auto items-center"
                     onClick={() => handleClose()}
                     ref={cancelButtonRef}
                   >

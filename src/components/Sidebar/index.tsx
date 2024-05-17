@@ -74,7 +74,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
               <li>
                 <Link
                   href="/dashboard"
-                  className={`group relative flex items-center gap-2.5 rounded-full px-4 py-3 font-medium text-black duration-300 ease-in-out hover:bg-primary300 ${pathname.includes("dashboard") && "bg-primary300"
+                  className={`group relative flex items-center gap-2.5 rounded-full px-4 py-3 text-black duration-300 ease-in-out hover:bg-primary300 ${pathname.includes("dashboard") && "bg-primary300"
                     }`}
                 >
                   <Image
@@ -92,7 +92,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
               <li>
                 <Link
                   href="/my-listing"
-                  className={`group relative flex items-center gap-2.5 rounded-full px-4 py-3 font-medium text-black duration-300 ease-in-out hover:bg-primary300 ${pathname.includes("my-listing") && "bg-primary300"
+                  className={`group relative flex items-center gap-2.5 rounded-full px-4 py-3 text-black duration-300 ease-in-out hover:bg-primary300 ${pathname.includes("my-listing") && "bg-primary300"
                     }`}
                 >                  
                   <Image
@@ -110,7 +110,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
               <li>
                 <Link
                   href="/track-payment"
-                  className={`group relative flex items-center gap-2.5 rounded-full px-4 py-3 font-medium text-black duration-300 ease-in-out hover:bg-primary300 ${pathname.includes("track-payment") && "bg-primary300"
+                  className={`group relative flex items-center gap-2.5 rounded-full px-4 py-3 text-black duration-300 ease-in-out hover:bg-primary300 ${pathname.includes("track-payment") && "bg-primary300"
                     }`}
                 >             
                 <Image
@@ -128,7 +128,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
               <li>
                 <Link
                   href="/chat"
-                  className={`group relative flex items-center gap-2.5 rounded-full px-4 py-3 font-medium text-black duration-300 ease-in-out hover:bg-primary300 ${pathname.includes("chat") && "bg-primary300"
+                  className={`group relative flex items-center gap-2.5 rounded-full px-4 py-3 text-black duration-300 ease-in-out hover:bg-primary300 ${pathname.includes("chat") && "bg-primary300"
                     }`}
                 >         
                 <Image
@@ -146,7 +146,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
               <li>
                 <Link
                   href="/profile"
-                  className={`group relative flex items-center gap-2.5 rounded-full px-4 py-3 font-medium text-black duration-300 ease-in-out hover:bg-primary300 ${pathname.includes("profile") && "bg-primary300"
+                  className={`group relative flex items-center gap-2.5 rounded-full px-4 py-3 text-black duration-300 ease-in-out hover:bg-primary300 ${pathname.includes("profile") && "bg-primary300"
                     }`}
                 >      
                 <Image
@@ -164,7 +164,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
               <li>
                 <Link
                   href="/rating-reviews"
-                  className={`group relative flex items-center gap-2.5 rounded-full px-4 py-3 font-medium text-black duration-300 ease-in-out hover:bg-primary300 ${pathname.includes("rating-review") && "bg-primary300"
+                  className={`group relative flex items-center gap-2.5 rounded-full px-4 py-3 text-black duration-300 ease-in-out hover:bg-primary300 ${pathname.includes("rating-review") && "bg-primary300"
                     }`}
                 >
                 <Image

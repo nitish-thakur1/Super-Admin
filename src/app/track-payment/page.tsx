@@ -40,7 +40,7 @@ const [failedModal,setPaymentFailedModal,]=useState(false)
             <div className="md:ml-auto flex gap-4 xs:flex-wrap md:flex-nowrap">
               <select
                 id="request-raised"
-                className="focus:outline-0 border-[#7F7F80] text-[#7F7F80] block w-full rounded-full border py-2 font-semibold px-4 text-base"
+                className="focus:outline-0 border-[#7F7F80] text-[#7F7F80] block w-full rounded-full border py-2 font-regular px-4 text-base"
               >
                 <option selected>Status</option>
                 <option value="1">Status 1</option>
@@ -49,7 +49,7 @@ const [failedModal,setPaymentFailedModal,]=useState(false)
                 <option value="4">Status 4</option>
               </select>
               
-              <div className="flex items-center border-[#7F7F80] text-[#7F7F80] rounded-full border py-2 font-semibold px-4 text-base">
+              <div className="flex items-center border-[#7F7F80] text-[#7F7F80] rounded-full border py-2 font-regular px-4 text-base">
                 <input type="date" className="focus:outline-0" />
               </div>
 

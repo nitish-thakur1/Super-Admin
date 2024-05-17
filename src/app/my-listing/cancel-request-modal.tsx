@@ -57,7 +57,7 @@ const CancelRequestModal = ({ show, handleClose }: Prop) => {
                       <div className="w-full">
                         <Dialog.Title
                           as="h3"
-                          className="text-xl font-semibold leading-6 text-black flex gap-3 items-center"
+                          className="text-xl font-medium leading-6 text-black flex gap-3 items-center"
                         >
                          <ExclamationCircleIcon
                         className="min-w-7 h-7 w-7 text-red"
@@ -126,7 +126,7 @@ const CancelRequestModal = ({ show, handleClose }: Prop) => {
                   <div className="bg-gray-50 px-4 py-3 pb-6 sm:px-6 flex gap-3 justify-end">
                   <button
                     type="button"
-                    className="mt-3 inline-flex w-full justify-center rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-primary300 shadow-sm ring-1 ring-inset ring-primary300 hover:bg-gray-50 sm:mt-0 sm:w-auto items-center"
+                    className="mt-3 inline-flex w-full justify-center rounded-full bg-white px-4 py-2.5 text-sm font-medium text-primary300 shadow-sm ring-1 ring-inset ring-primary300 hover:bg-gray-50 sm:mt-0 sm:w-auto items-center"
                     onClick={() => handleClose()}
                     ref={cancelButtonRef}
                   >
@@ -134,7 +134,7 @@ const CancelRequestModal = ({ show, handleClose }: Prop) => {
                   </button>
                   <button
                     type="button"
-                    className="inline-flex w-full bg-primary300 justify-center rounded-full bg-red-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:w-auto items-center"
+                    className="inline-flex w-full bg-primary300 justify-center rounded-full bg-red-600 px-4 py-2.5 text-sm font-medium text-white shadow-sm hover:bg-red-500 sm:w-auto items-center"
                     onClick={() => handleClose()}
                   >
                    Confirm

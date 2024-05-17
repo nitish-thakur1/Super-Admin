@@ -58,7 +58,7 @@ const PaymentFailedModal = ({ show, handleClose }: Prop) => {
                       <div className="w-full">
                         <Dialog.Title
                           as="h3"
-                          className="text-xl font-semibold leading-6 text-black flex gap-3 items-center"
+                          className="text-xl font-medium leading-6 text-black flex gap-3 items-center"
                         >
                          <ExclamationTriangleIcon
                         className="min-w-7 h-7 w-7 text-red"
@@ -86,7 +86,7 @@ const PaymentFailedModal = ({ show, handleClose }: Prop) => {
                   <div className="bg-gray-50 px-4 py-3 pb-6 sm:px-6 flex gap-3 justify-end">
                   <button
                     type="button"
-                    className="inline-flex w-full bg-primary300 justify-center rounded-full bg-red-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:w-auto items-center"
+                    className="inline-flex w-full bg-primary300 justify-center rounded-full bg-red-600 px-4 py-2.5 text-sm font-medium text-white shadow-sm hover:bg-red-500 sm:w-auto items-center"
                     onClick={() => handleClose()}
                   >
                    Close

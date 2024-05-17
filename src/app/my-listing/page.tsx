@@ -41,7 +41,7 @@ const [cancelModal,setCancelModal,]=useState(false)
           <h3 className="text-xl font-semibold">My Listing</h3>
           <Link
             href="/my-listing/add-task"
-            className="ml-auto rounded-full bg-primary300 transition-all px-4 py-2 text-white hover:bg-primary400"
+            className="font-normal ml-auto rounded-full bg-primary300 transition-all px-4 py-2 text-white hover:bg-primary400"
           >
             Create Task Request
           </Link>
@@ -53,7 +53,7 @@ const [cancelModal,setCancelModal,]=useState(false)
               Raised Request List
             </h4>
             <div className="xs:flex-wrap flex gap-4 md:ml-auto md:flex-nowrap">
-              <div className="flex items-center rounded-full border border-[#7F7F80] px-4 py-2 text-base font-semibold text-[#7F7F80]">
+              <div className="flex items-center rounded-full border border-[#7F7F80] px-4 py-2 text-base font-regular text-[#7F7F80]">
                 <input
                   type="text"
                   placeholder="Search by title"
@@ -63,7 +63,7 @@ const [cancelModal,setCancelModal,]=useState(false)
 
               <select
                 id="status"
-                className="block w-full rounded-full border border-[#7F7F80] px-4 py-2 text-base font-semibold text-[#7F7F80] focus:outline-0"
+                className="block w-full rounded-full border border-[#7F7F80] px-4 py-2 text-base font-regular text-[#7F7F80] focus:outline-0"
               >
                 <option selected>Status</option>
                 <option value="1">Status 1</option>
@@ -72,7 +72,7 @@ const [cancelModal,setCancelModal,]=useState(false)
                 <option value="4">Status 4</option>
               </select>
 
-              <div className="flex items-center rounded-full border border-[#7F7F80] px-4 py-2 text-base font-semibold text-[#7F7F80]">
+              <div className="flex items-center rounded-full border border-[#7F7F80] px-4 py-2 text-base font-regular text-[#7F7F80]">
                 <input type="date" className="focus:outline-0" />
               </div>
             </div>

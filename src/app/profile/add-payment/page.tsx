@@ -89,7 +89,7 @@ const AddPayment = () => {
                           alt="card"
                         />
                       </span>
-                      <div className="font-semibold text-black">
+                      <div className="font-medium text-black">
                         <span className="block">****1234 | Expires 06/27</span>
                         <span className="block">John Doe</span>
                       </div>
@@ -110,7 +110,7 @@ const AddPayment = () => {
                           alt="card"
                         />
                       </span>
-                      <div className="font-semibold text-black">
+                      <div className="font-medium text-black">
                         <span className="block">****1234 | Expires 06/27</span>
                         <span className="block">John Doe</span>
                       </div>
@@ -125,7 +125,7 @@ const AddPayment = () => {
                       className="block h-6 w-6 text-black"
                       aria-hidden="true"
                     />
-                    <h5 className="mt-1 font-semibold text-black ">
+                    <h5 className="mt-1 font-medium text-black ">
                       Add New Card
                     </h5>
                   </Link>
@@ -219,13 +219,13 @@ const AddPayment = () => {
         <div className="bg-gray-50 flex justify-end gap-3 py-6">
             <button
               type="button"
-              className="hover:bg-gray-50 mt-3 inline-flex w-full items-center justify-center rounded-full bg-white px-4 py-2.5 text-base font-semibold text-primary300 shadow-sm ring-1 ring-inset ring-primary300 sm:mt-0 sm:w-auto"
+              className="hover:bg-gray-50 mt-3 inline-flex w-full items-center justify-center rounded-full bg-white px-4 py-2.5 text-base font-normal text-primary300 shadow-sm ring-1 ring-inset ring-primary300 sm:mt-0 sm:w-auto"
             >
               Back
             </button>
             <button
               type="button"
-              className="bg-red-600 hover:bg-red-500 inline-flex w-full items-center justify-center rounded-full bg-primary300 px-4 py-2.5 text-base font-semibold text-white shadow-sm sm:w-auto"
+              className="bg-red-600 hover:bg-red-500 inline-flex w-full items-center justify-center rounded-full bg-primary300 px-4 py-2.5 text-base font-normal text-white shadow-sm sm:w-auto"
             >
               Make Payment
             </button>
