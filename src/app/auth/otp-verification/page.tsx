@@ -17,7 +17,7 @@ const OTPVerification: React.FC = () => {
     router.push("/dashboard");
   };
 
-  const [otp, setOtp] = useState();
+  const [otp, setOtp] = useState<string>("");
 
   return (
     <section className="login-module relative flex min-h-[100vh] items-center bg-white dark:bg-boxdark">
@@ -75,7 +75,7 @@ const OTPVerification: React.FC = () => {
                 <div className="OTP-input text-center">
                   <OtpInput
                     value={otp}
-                    onChange={setOtp}
+                    onChange={(otp:string)=>setOtp(otp)}
                     numInputs={4}
                     renderInput={(props) => <input {...props} />}
                   />

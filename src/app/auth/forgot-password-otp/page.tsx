@@ -17,7 +17,7 @@ const ForgotPasswordOTP: React.FC = () => {
     router.push("/dashboard");
   };
 
-  const [otp, setOtp] = useState();
+  const [otp, setOtp] = useState<string>("");
 
   return (
     <section className="login-module flex items-center relative min-h-[100vh] bg-white dark:bg-boxdark">
@@ -61,7 +61,7 @@ const ForgotPasswordOTP: React.FC = () => {
                 <div className="OTP-input text-center">
                   <OtpInput
                     value={otp}
-                    onChange={setOtp}
+                    onChange={(otp:string)=>setOtp(otp)}
                     numInputs={4}
                     renderInput={(props) => <input {...props} />}
                   />
